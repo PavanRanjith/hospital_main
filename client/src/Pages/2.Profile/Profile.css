@@ -1,0 +1,72 @@
+.M-pass-outer-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 50px;
+ }
+ .M-pass-inner-panel{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    width: fit-content;
+    background-image: url('./images/5375941234567.jpg');
+    background-size: cover;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+ }
+ .M-pass-item{
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .M-pass-input{
+    height: 30px;
+    width: 400px;
+    border: none;
+    color: black;
+ }
+ 
+.M-pass-button{
+    
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgba(53, 43, 190, 0.9);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+.M-pass-heading{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.M-pass-navlink{
+    text-decoration: none;
+    font-family: 'Gemunu Libre', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(43, 126, 190, 0.9);
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 3px;
+}

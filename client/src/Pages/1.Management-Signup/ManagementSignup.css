@@ -1,0 +1,287 @@
+ .M-signup-outer-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .M-signup-panel{
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(17, 9, 108);
+    padding: 30px;
+    background-image: url('./images/5375941234567.jpg');
+    background-size: cover;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+ .M-signup-inner-panel{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .M-signup-item{
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .M-signup-input{
+    /* background-image: url(./images/53759412.jpg);
+    background-size: cover; */
+    height: 30px;
+    width: 400px;
+    border: none;
+    color: black;
+ }
+ .M-signup-item-2{
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    
+ }
+ .item {
+    flex: 0 0 calc(33.333% - 10px); /* Adjust the percentage based on your needs */
+    display: flex;
+    align-items: center;
+  }
+ .M-signup-item-3{
+    margin-top: 5px;
+ }
+
+
+
+ .M-signup-heading{
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.M-signup-button-panel{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.M-signup-button{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgba(53, 43, 190, 0.9);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+  /* ------------------------------ swal - 2 ------------------------------ */
+  .my-custom-popup-class {
+    width: 350px;
+    height: 75px;
+    background-color: black;
+  }
+  .my-custom-title-class {
+    color: white; 
+    background-color: rgba(53, 43, 190, 0.9);
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100px;
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+  .my-custom-content-class {
+    color: white;
+    background-color: rgba(53, 43, 190, 0.9);
+  }
+  .progress-bar{
+    background-color: rgba(53, 43, 190, 0.9);
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .plus-minus {
+    --primary: #1e2235;
+    --secondary: #fafbff;
+    --duration: 0.5s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 240px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 3px solid var(--primary);
+    background-size: 300% 300%;
+    transition: transform 0.3s;
+    transform: scale(var(--scale, 0.7)) translateZ(0);
+    animation: var(--name, unchecked) var(--duration) ease forwards;
+}
+
+.plus-minus:before,
+.plus-minus:after {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: var(--height, 11px);
+    left: 4px;
+    top: var(--top, 4px);
+    background: var(--background, var(--primary));
+    animation: var(--name-icon-b, var(--name-icon, unchecked-icon))
+        var(--duration) ease forwards;
+}
+.plus-minus:before {
+    clip-path: polygon(
+        0 4px,
+        4px 4px,
+        4px 0,
+        7px 0,
+        7px 4px,
+        11px 4px,
+        11px 7px,
+        7px 7px,
+        7px 11px,
+        4px 11px,
+        4px 7px,
+        0 7px
+    );
+}
+
+.plus-minus:after {
+    --height: 3px;
+    --top: 8px;
+    --background: var(--secondary);
+    --name-icon-b: var(--name-icon-a, checked-icon);
+}
+
+.plus-minus:active {
+    --scale: 0.65;
+}
+
+.plus-minus:checked {
+    --name: checked;
+    --name-icon-b: checked-icon;
+    --name-icon-a: unchecked-icon;
+}
+
+@keyframes checked-icon {
+    from {
+        transform: translateZ(12px);
+    }
+    to {
+        transform: translateX(16px) rotateY(90deg) translateZ(12px);
+    }
+}
+
+@keyframes unchecked-icon {
+    from {
+        transform: translateX(-16px) rotateY(-90deg) translateZ(12px);
+    }
+    to {
+        transform: translateZ(12px);
+    }
+}
+
+@keyframes checked {
+    from {
+        background-image: radial-gradient(
+            ellipse at center,
+            var(--primary) 0%,
+            var(--primary) 25%,
+            var(--secondary) 25.1%,
+            var(--secondary) 100%
+        );
+        background-position: 100% 50%;
+    }
+    to {
+        background-image: radial-gradient(
+            ellipse at center,
+            var(--primary) 0%,
+            var(--primary) 25%,
+            var(--secondary) 25.1%,
+            var(--secondary) 100%
+        );
+        background-position: 50% 50%;
+    }
+}
+
+@keyframes unchecked {
+    from {
+        background-image: radial-gradient(
+            ellipse at center,
+            var(--secondary) 0%,
+            var(--secondary) 25%,
+            var(--primary) 25.1%,
+            var(--primary) 100%
+        );
+        background-position: 100% 50%;
+    }
+    to {
+        background-image: radial-gradient(
+            ellipse at center,
+            var(--secondary) 0%,
+            var(--secondary) 25%,
+            var(--primary) 25.1%,
+            var(--primary) 100%
+        );
+        background-position: 50% 50%;
+    }
+}
+
+.dribbble {
+    position: fixed;
+    display: block;
+    right: 20px;
+    bottom: 20px;
+}
+
+.twitter {
+    position: fixed;
+    display: block;
+    right: 64px;
+    bottom: 14px;
+    svg {
+        width: 32px;
+        height: 32px;
+        fill: #1da1f2;
+    }
+}

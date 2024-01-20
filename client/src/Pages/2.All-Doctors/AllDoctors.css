@@ -1,0 +1,45 @@
+.doc_panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    padding-top: 5px;
+    color: white;
+} 
+
+.doc_navlink{
+    text-decoration: none;
+    background-color: white;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    color: black;
+}
+
+.doc_heading{
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.doc_navlink_2{
+    text-decoration: none;
+    background-color: rgba(53, 43, 190, 0.9);
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.doc_heading_span{
+    color: rgb(71, 59, 243)
+}

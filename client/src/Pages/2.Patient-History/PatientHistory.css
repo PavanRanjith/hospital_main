@@ -1,0 +1,31 @@
+.app-heading{
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    color: rgb(48, 61, 239);
+    letter-spacing: 1.5px;
+}
+.app-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    padding-top: 5px;
+    color: white;
+}
+.app-navlink{
+    text-decoration: none;
+    font-family: 'Gemunu Libre', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(53, 43, 190, 0.9);
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 3px;
+}

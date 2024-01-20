@@ -1,0 +1,103 @@
+
+.spec-panel{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.spec-item{
+    margin: 20px;
+    background-image: url('./images/537594123456.jpg');
+    background-size: cover;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spec-span{
+    color: rgb(13, 124, 209);
+}
+.spec-nav-item{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+.spec-nav-item-2{
+    text-decoration: none;
+    color: white;
+}
+.spec-heading{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ah{
+    visibility:hidden;
+}
+.spec-sub-heading-1{
+    font-weight: lighter;
+}
+.spec-logout-button{
+    background-color: rgba(13, 124, 209, 0.9);
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.spec-heading-2{
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    color: rgb(43, 75, 236);
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.line{
+    height: 1px;
+    background-color: white;
+    margin : 10px;
+}
+.spec-options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.option-button{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    font-size: 20px;
+    height: 100px;
+    width: 220px;
+    background-color: rgba(43, 126, 190, 0.9);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
